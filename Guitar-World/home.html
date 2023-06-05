@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/home.css">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Guitar world</title>
+</head>
+<body>
+    <header>
+        <div class="cadastre">
+            <p><a href="cadastro.html">Entrar/Cadastrar</a></p>
+        </div>
+        <div class="apresentacao">
+            <h2 class="imagem"><img src="assets/img/logoblanco.png"></h2>
+            <h1>Guitar's shop</h1>
+        </div>
+    </header>
+    <main>
+    <div class="container">
+            <div class="abas">
+                <button  data-aba="homepage" data-open >Pagina inicial</button>
+                <button data-aba="catalogo">Catálogo</button>
+                <button data-aba="atendentes">Atendentes</button>
+                <button data-aba="config">Sua conta</button>                 
+                 <!-- <button>Contate-nos</button> -->
+            </div>
+        
+        <div class="conteudos">
+            <section data-conteudo="homepage" id="homepage">
+                
+<div class="main-content">
+    <div class="image-container">
+      <img src="" alt="Imagem 1">
+    </div>
+    <div class="text-container">
+      <h2>Texto 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada dui felis, vel aliquet ex bibendum eget. Proin bibendum turpis sapien, vel facilisis tellus elementum at.</p>
+    </div>
+  </div>
+  
+  <div class="main-content">
+    <div class="text-container">
+      <h2>Texto 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada dui felis, vel aliquet ex bibendum eget. Proin bibendum turpis sapien, vel facilisis tellus elementum at.</p>
+    </div>
+    <div class="image-container">
+      <img src="" alt="Imagem 2">
+    </div>
+  </div>
+            </section>
+            
+            <section data-conteudo="catalogo" id="catalogo">
+
+                Pesquisar por marca: <input id="inputPesquisa" type="text" placeholder="pesquisar por nome">
+                <button id="pesquisar">Pesquisar</button>
+                <button id="mostraTudo">Mostrar Todas</button>
+                Pesquisar por preço: <select id="genre-select">
+                    <option value="Todos">Todos</option>
+                    <option value="1000">Abaixo de 1000</option>
+                    <option value="3000">1000-3000</option>
+                    <option value="5000">3000-5000</option>
+                    <option value="10000">5000-10000</option>
+                    <option value="10001">Acima de 10000</option>
+                </select>
+               
+                <div class="catalogo">
+                </div>
+                
+            </section>
+
+            <section data-conteudo="atendentes" id="atendentes">
+                <p>processando...</p>
+            </section>
+
+            <section data-conteudo="config" id="config">
+                <p>processando...</p>
+            </section>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <img src="assets/img/logoblanco.png">
+        <p class="copyright">
+           &copy; copyright Cecília Castro e josé Vitor
+        </p>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+</html>
